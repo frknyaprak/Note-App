@@ -1,0 +1,103 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background: repeating-linear-gradient(#B33771,#6D214F);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Indie Flower', cursive;
+}
+
+.main-title{
+    font-size: 4rem;
+}
+
+.header,
+.gorev-form{
+    min-height: 15vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-item {
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+    border: none;
+    outline: none;
+}
+
+.btn-gorev-ekle{
+    cursor: pointer;
+    color: #B33771; 
+}
+
+
+.btn-gorev-ekle:hover{
+    color: antiquewhite;
+    background-color: rgb(122,22,62);
+    border: white;
+    transition: 0.2s;
+}
+
+.gorev-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gorev-listesi{
+    list-style: none;
+}
+
+.gorev-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.2rem;
+    font-size: 1.8rem;
+    background-color: rgb(170,182,192);
+    transition: 0.5s ease-in-out;
+}
+
+.gorev-tanim{
+    flex:1;
+    padding: 0.5rem;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.gorev-btn{
+    outline: none;
+    background-color: aliceblue;
+    font-size: 1.5rem;
+    padding: 0.9rem;
+    margin-left: 0.7rem;
+    border: none;
+    cursor: pointer;
+    color: #B33771;
+}
+
+.gorev-btn:hover{
+    background-color: #B33771;
+    color: whitesmoke;
+    transition: 0.2s;
+}
+
+.gorev-tamamlandi{
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.far{
+    pointer-events: none;
+}
+
+.yavasca-kaybol{
+    transform: scale(0);
+}
